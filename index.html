@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="task_list">
+        <div class="header">
+            <p id="curentday"></p>
+            <p id="curentdate"></p>
+        </div>
+        <div class="nav">
+            <button   class="week1" id="first" ></button>
+            <button   class="week2" id="second"></button>
+            <button   class="week3" id="third"></button>
+            <button   class="week4" id="fourth"></button>
+            <button   class="week5" id="fifth"></button>
+        </div>
+        <div class="taskslist" id="taskslist">
+        </div>
+      <div class="new_task">
+            <p>+ NEW TASK</p>
+      </div>
+    </div>
+    <div class="add">
+        <div class="header">
+            <p id="addday">Today-</p>
+            <p id="adddate"></p>
+        </div>
+        <div class="conteiner">
+            <div class="task">
+                <input type="text" id="taskname" placeholder="TASK:">
+            </div><br>
+            <div class="note">
+                <input type="text" id="notename" placeholder="NOTE:">
+            </div><br>
+            <div class="priority">
+                <p style="padding-top:10px">Priority</p>
+                <div class="proritylist">
+
+                    <div><input type="radio" id="high" name="priority" value="high">
+                        <label>High</label></div>
+
+                    <div><input type="radio" id="medium" name="priority" value="medium">
+                        <label>Medium</label></div>
+
+                    <div><input type="radio" id="low" name="priority" value="low">
+                        <label>Low</label></div>
+
+                    <div><input type="radio" id="none" name="priority" value="none">
+                        <label>None</label>
+                    </div>
+                </div>
+            </div><br>
+            <div class="page">
+                <p>Calendar page</p>
+            </div>
+            <div class="calendar" id="calendarpage">
+
+
+            </div>
+            <div class="addtask">
+   
+                    <div class="priori">
+                    </div>
+                </div>
+
+            </div>
+            <div class="activate">
+
+                <button onclick="taskcreator()">+ ADD NEW TASK</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
