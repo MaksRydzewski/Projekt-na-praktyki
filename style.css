@@ -1,0 +1,276 @@
+body{
+    font-family: system-ui;
+    padding-top: 84px;
+    display: flex;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+    background-color:#000000;
+    margin: 0%;
+    color:white;
+}
+
+.task_list, .add{
+    width: 400px;
+    height: 800px;
+    background-color:#141414 ;
+    border-radius:20px ;
+}
+
+.task_list{
+    margin-right:42px ;
+}
+
+.add{
+    margin-left: 42px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:24px ;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.week1,.week2, .week3, .week4, .week5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0px 10px 0px;
+    color: white;
+    border-style: solid;
+}
+
+.week1{
+    background-color:#0000F8 ;
+    border-color:#0000F8;
+
+}
+
+.week2{
+    background-color:#0000BA ;
+    border-color:#0000BA ;
+}
+
+.week3, .week4, .week5{
+
+    background-color:#00007C ;
+    border-color: #00007C;
+}
+
+.taskslist{
+    width: 370px;
+    height: 590px;
+    background-color:#101010;
+    margin: 15px;
+    border-radius: 10px 10px 10px 10px;
+    color:white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+
+}
+
+.new_task{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#0000F8 ;
+margin: 15px;
+margin-bottom: 0px;
+font-size: 24px;
+height: 50px;
+width: 370px;
+border-radius: 10px 10px 10px 10px;
+
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0000BA; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0000BA; 
+  }
+
+  input#taskname{
+    margin-top: 15px;
+    font-size: 32px;
+    height: 70px;
+    width: 370px;
+    background-color: #0000F8;
+    border-radius: 10px;
+    border:none;
+    padding-left: 10px;
+    margin-left: 10px;
+    color:white;
+  }
+
+  ::placeholder {
+  color:#E1D9D1;
+  opacity: 1;
+}
+
+#notename{
+    margin-top: 15px;
+    background-color:#0000BA;
+    color: white;
+    font-size: 16px;
+    height: 70px;
+    width: 370px;
+    border-radius: 10px;
+    border:none;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.priority>p{
+    margin: 0px;
+}
+
+.priority{
+    margin-top: 15px;
+}
+.priority, .calendar{
+    font-size: 16px;
+    height: 90px;
+    width: 370px;
+    background-color: #00007C;
+    border-radius: 10px;
+    border:none;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.proritylist{
+    display: flex;
+    justify-content: space-around;
+}
+
+.calendar{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.calendar >button{
+    background-color:#0000F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px 0px 10px 0px;
+    color: white;
+    margin: 5px;
+    border:none;
+}
+
+.wypis{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    font-size: 16px;
+    width: 330px;
+    background-color: #00007C;
+    border-radius: 10px;
+    border:none;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#tasktitle{
+    font-size: 24px;
+}
+
+.priori{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    flex-direction: column-reverse
+}
+.task_note{
+    margin: 5px;
+}
+
+.activate>button{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#0000F8 ;
+margin: 15px;
+margin-bottom: 0px;
+font-size: 24px;
+height: 50px;
+width: 370px;
+border-radius: 10px 10px 10px 10px;
+color: white;
+border: none;
+width: 370px;
+}
+.activate{
+    margin-top: 15px;
+    width: 380px;
+}
+
+.calendar{
+    border-radius: 0px 0px 10px 10px;
+}
+.page{
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:#00007C;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 24px;
+}
+.page>p{
+    margin: 5px;
+}
+
+img{
+    background-color:#00007C ;
+}
+
+#del>button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
